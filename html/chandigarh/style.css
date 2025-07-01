@@ -1,0 +1,12 @@
+body{
+    margin:0px;
+
+}
+div{
+    display:flex;
+    flex:auto
+}
+img{
+    display:flex;
+    flex:auto;
+}
