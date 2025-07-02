@@ -1,0 +1,14 @@
+#selector_specificity_order{
+    height:800px;
+    width:150px;
+    background-color:blueviolet;
+    float:left
+}
+#selector_specificity{
+    height:800px;
+    width:70px;
+    float:left
+}
+body{
+    margin:0
+}
