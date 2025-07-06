@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css">  
+    <title>form</title>
+</head>
+<body>
+    <div class="background">
+    <fieldset style="float:left"><h1>
+<pre>Welcome 
+To 
+CoderRoots
+
+
+
+</pre></h1>
+    </fieldset>
+    <form action="" method=""><!--get => to get data from a source
+                                post=> to create a new source
+                                put=> to change existing source data
+                                patch=>id
+                                delete=> 
+                                -->
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            
+            <label for="name">Name :</label>
+            <input id="name" type="text" placeholder="enter your name"><br>
+            <label for="email">Email :</label>
+            <input id="email" type="email" placeholder="enter your email"><br><br>
+            <label for="phonenumber">contactNo. :</label>
+            <input id="phonenumber" type="tel" placeholder="enter your phone number"><br><br>
+            <label for="address" >Address:</label>
+            <datalist id="city">
+                <option value = "firozpur">Firozpur</option>
+                <option value = "ludhiana">Ludhiana</option>
+                <option value = "mohali">Mohali</option>
+                <option value = "jalalabad">Jalalabad</option>
+                <option value = "shimla">Shimla</option>
+                <option value = "sultanpur lodhi">Sultanpur Lodhi</option>
+            </datalist>
+            <datalist id="state">
+                <option value="punjab">Punjab</option>
+                <option value="haryana">Haryana</option>
+                <option value="himachal pradesh">Himachal Pradesh</option>
+            </datalist>
+            <input class="address" placeholder="house no." type="number">
+            <input class="address" placeholder="street " type="text">
+            <input class="address" list="city" placeholder="city">
+            <input class="address" list="state" placeholder="state"> <br><br>
+            <label for="qualification">Qualification :</label>
+            <select name="select your qualification" id="course">
+                <option value="10">Matric(10th)</option>
+                <option value="10+2">Senior Secondary(10+2)</option>
+                <option value="graduation">Graduation</option>
+                <option value="post-graduation">Post-graduation</option>
+                <option value="doctorate">Phd.(doctorate)</option>
+            </select><br><br>
+            <label for = "github">github link:</label>
+            <input id= "github" type="url" placeholder="enter your github profile link"><br><br>
+            <label for="file">submit your resume:</label>
+            <input id="file" type="file" placeholder="value"><br><br>
+            </fieldset><br><fieldset>
+                <legend>
+                    Preferences
+                </legend>
+            <div>    
+            <label for="course">choose your course</label>
+            <select name="course" id="course">
+                <optgroup>web development<option value="reactweb">web + react</option>
+                <option value="angularweb">web + angular</option></optgroup>
+                <option value="datascience">python + datascience</option>
+                <option value="android">android development(kotlin)</option>
+            </select><br><br>
+            <p style="background-color:blueviolet;float:left">choose your preferred time slot</p><br><br><br>
+        
+            <label for="timing">9-11 a.m.</label> 
+            <input id="timing" type="radio" name="time"><br>
+            <label for="timing">11-1 p.m.</label> 
+            <input id="timing" type="radio" name="time"><br>
+            <label for="timing">1:30-4:30 p.m.</label>
+            <input id="timing" type="radio" name="time"><br>
+            <label for="timing">4-6p.m.</label>
+            <input id="timing" type="radio" name="time"><br><br>
+            <label for="month">enter joining month</label>
+            <input id="month" type="month" ><br><br>
+            <label for="week">enter joining week</label>
+            <input id="week" type="week"><br><br>
+            <label for="time">enter joining date</label>
+            <input id="time" type="date"><br><br>
+            <label for="search">Search</label>
+            <input id="search" type="search" placeholder="search">
+            <input type ="submit" id="submit" value="submit form">
+            <input type = "reset" id="reset" value="reset form">
+                
+        </fieldset>
+        <fieldset>
+            <legend>
+                demo
+            </legend>
+            <iframe src="https://www.coderroots.com/" width="1000" height="682"></iframe>
+            <iframe width="384" height="682" src="https://www.youtube.com/embed/Zp_OgnWUM0c" title="Office View" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
