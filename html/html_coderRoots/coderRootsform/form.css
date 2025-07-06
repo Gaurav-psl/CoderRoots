@@ -7,12 +7,16 @@ h1{
 }
 legend{
     
-    color:aqua
+    color:aqua;
 }
 body{
-    background-color:black
+    background-color:black;
 }
 label{
     background-color:blueviolet;
+}
+p{
+    background-color:blueviolet;
+    float:left;
 }
 
